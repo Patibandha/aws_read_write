@@ -70,8 +70,8 @@ def download_file(bucket):
 
 
 if __name__ == "__main__":
-    access_key_id = 'AKIAJ6GSMCZA3GH5ZHPA'
-    secreat_access_key = 'kv6z9PdgKOyNoZSmYO6tIMCEMo86Wb5SV1mDkn4k'
+    access_key_id = 'xxx'
+    secreat_access_key = 'xxx'
     sesssion = boto3.Session(access_key_id, secreat_access_key)
     s3 = sesssion.resource('s3')
     bucketName = '8kmilesfile'
